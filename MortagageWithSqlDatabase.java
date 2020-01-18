@@ -27,7 +27,7 @@ public class Main {
 		String Query2 = "insert into calculate values(?,?,?,?)";
 		Class.forName("com.mysql.jdbc.Driver");
 		
-		Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mortgage", "root", "Ranch4Road8@");
+		Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mortgage", "root", "putpassword");
 		
 		//Statement st = con.createStatement();
 		//int count = st.executeUpdate(Query);
